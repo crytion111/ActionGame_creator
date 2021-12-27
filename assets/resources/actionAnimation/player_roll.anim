@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "player_roll",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.35,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "0f4dc763-9b24-4a32-870a-4aba5a58a2d1"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "1d17fdf4-ed87-4a5a-a277-803d848ddb67"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "0f4dc763-9b24-4a32-870a-4aba5a58a2d1"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "1d17fdf4-ed87-4a5a-a277-803d848ddb67"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "39a60835-843f-40b8-bb6b-6acfcb171260"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "ee550d3d-5e01-446e-8657-cb3d690b175e"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "45bd4604-cbc1-438e-b8e5-dd3e344de979"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

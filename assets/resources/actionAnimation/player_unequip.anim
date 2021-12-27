@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "player_unequip",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": -0.25,
+            "value": {
+              "__uuid__": "c38b2393-c889-4410-b0cf-406d9c083afe"
+            }
+          },
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c38b2393-c889-4410-b0cf-406d9c083afe"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "09b08913-e429-4c72-a65e-d010c9dd7c8f"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "8f1ce575-339a-41d0-89d6-bdc43bac2fbf"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "66c7e65c-5ecb-457f-8524-e5863777d04f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

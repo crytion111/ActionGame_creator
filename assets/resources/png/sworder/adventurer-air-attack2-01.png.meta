@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "7c1377bb-fa6f-4e54-bc67-f079a4997f83",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-air-attack2-01": {
+      "ver": "1.0.4",
+      "uuid": "e1f4581e-db92-48ff-a61a-62c4fa4e852a",
+      "rawTextureUuid": "7c1377bb-fa6f-4e54-bc67-f079a4997f83",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": 0,
+      "trimX": 16,
+      "trimY": 3,
+      "width": 23,
+      "height": 31,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

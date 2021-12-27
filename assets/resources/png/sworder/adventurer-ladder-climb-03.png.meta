@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "3261af21-fff7-4e73-be52-6a2851868477",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-ladder-climb-03": {
+      "ver": "1.0.4",
+      "uuid": "8ba246ad-6317-4b88-be10-e16c7881c166",
+      "rawTextureUuid": "3261af21-fff7-4e73-be52-6a2851868477",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 19,
+      "trimY": 5,
+      "width": 13,
+      "height": 27,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

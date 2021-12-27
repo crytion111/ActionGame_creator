@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "4998d8ef-58f0-403d-9f4e-ad7a6ee4abde",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-stand-00": {
+      "ver": "1.0.4",
+      "uuid": "39a60835-843f-40b8-bb6b-6acfcb171260",
+      "rawTextureUuid": "4998d8ef-58f0-403d-9f4e-ad7a6ee4abde",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3,
+      "offsetY": -9.5,
+      "trimX": 5,
+      "trimY": 20,
+      "width": 34,
+      "height": 16,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

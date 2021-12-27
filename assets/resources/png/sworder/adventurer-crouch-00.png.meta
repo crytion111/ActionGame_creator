@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "b189dba4-0de0-42d9-bae8-e8ebcd65037a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-crouch-00": {
+      "ver": "1.0.4",
+      "uuid": "7884da5f-3738-4371-a52a-5e2d1ba05c79",
+      "rawTextureUuid": "b189dba4-0de0-42d9-bae8-e8ebcd65037a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -7,
+      "trimX": 16,
+      "trimY": 15,
+      "width": 19,
+      "height": 21,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

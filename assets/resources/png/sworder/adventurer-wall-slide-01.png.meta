@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "a3fa53c8-7cb5-43cd-9aa8-1539d3dd8bd2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-wall-slide-01": {
+      "ver": "1.0.4",
+      "uuid": "98493759-d749-4f18-ad35-95391ec9606e",
+      "rawTextureUuid": "a3fa53c8-7cb5-43cd-9aa8-1539d3dd8bd2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 16,
+      "trimY": 2,
+      "width": 17,
+      "height": 32,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

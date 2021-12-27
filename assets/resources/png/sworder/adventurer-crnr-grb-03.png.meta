@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "6be10045-606e-4ecd-a122-28fb8eb71563",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-crnr-grb-03": {
+      "ver": "1.0.4",
+      "uuid": "10fcd9e0-55e7-4d64-b66c-254f6c766c15",
+      "rawTextureUuid": "6be10045-606e-4ecd-a122-28fb8eb71563",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": -1.5,
+      "trimX": 21,
+      "trimY": 3,
+      "width": 14,
+      "height": 34,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

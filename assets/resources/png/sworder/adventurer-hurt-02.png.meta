@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "5c9a6fad-5deb-435a-9457-e77a5586d183",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-hurt-02": {
+      "ver": "1.0.4",
+      "uuid": "e7d29512-d27d-480f-87bb-d04f63a823ca",
+      "rawTextureUuid": "5c9a6fad-5deb-435a-9457-e77a5586d183",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -5.5,
+      "trimX": 15,
+      "trimY": 12,
+      "width": 19,
+      "height": 24,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

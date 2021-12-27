@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "e0f84985-8310-46e7-a1a5-edc8a765c31e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "adventurer-fall-00": {
+      "ver": "1.0.4",
+      "uuid": "7ca8eabc-9e5f-412c-bdad-8dc7d09bbe06",
+      "rawTextureUuid": "e0f84985-8310-46e7-a1a5-edc8a765c31e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 2,
+      "trimX": 18,
+      "trimY": 1,
+      "width": 17,
+      "height": 31,
+      "rawWidth": 50,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
