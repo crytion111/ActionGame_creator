@@ -194,16 +194,18 @@ export default class MainPlayer extends cc.Component {
 
     update(dt: number)
     {
-        if(this.machineOBJ)
+        if (this.machineOBJ)
             this.machineOBJ.mUpdate(dt);
 
 
         this.setPlayerFace();
 
-        if(this.machineOBJ.getCurStatusKey() != PlayerActions.attack && this.bPlayerInRunning)
+        if ((this.machineOBJ.getCurStatusKey() != PlayerActions.attack
+            && this.bPlayerInRunning)
+            || this.machineOBJ.getCurStatusKey() == PlayerActions.rolling)
         {
             let scaleX = this.node.scaleX;
-            this.node.x += (scaleX==1) ? this.nPlayerRunSpeed : -this.nPlayerRunSpeed;
+            this.node.x += (scaleX == 1) ? this.nPlayerRunSpeed : -this.nPlayerRunSpeed;
         }
 
         GameManager.worldScene.MainCamera.node.x = this.node.x;
