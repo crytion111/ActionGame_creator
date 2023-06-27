@@ -1,2 +1,1 @@
-# hello-world
-Hello world new project template.
+https://forum.cocos.org/t/topic/127575
