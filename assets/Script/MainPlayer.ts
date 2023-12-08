@@ -26,7 +26,21 @@ export default class MainPlayer extends cc.Component {
     // 行走时的速度
     nPlayerRunSpeed: number = 2;
     // 翻滚时的速度
-    nPlayerRollSpeed: number = 7;
+    nPlayerRollSpeed: number = 5.5;
+
+    //hp
+    nPlayerHP:number = 100;
+    //mp
+    nPlayerMP:number = 100;
+    //耐力
+    nPlayerNP:number = 100;
+
+    //hp回复速度(每秒)
+    nPlayerHPRecov:number = 0;
+    //mp回复速度(每秒)
+    nPlayerMPRecov:number = 0;
+    //np回复速度(每秒)
+    nPlayerNPRecov:number = 0;
 
 
 
