@@ -9,8 +9,7 @@ import FallStatus from "./PlayerStatus/FallStatus";
 import MoveStatus from "./PlayerStatus/MoveStatus";
 import RollingStatus from "./PlayerStatus/RollingStatus";
 
-export enum PlayerActions
-{
+export enum PlayerActions {
     stand1,
     stand2,
     attack,
@@ -23,19 +22,17 @@ export enum PlayerActions
 
 
 
-export class PlayerStatusMachine
-{
-    mainPlayer:MainPlayer = null;
-    spritePlayer:cc.Node = null;
+export class PlayerStatusMachine {
+    mainPlayer: MainPlayer = null;
+    spritePlayer: cc.Node = null;
 
-    mapStatusInfo:Map<PlayerActions, RootStatus> = new Map()
+    mapStatusInfo: Map<PlayerActions, RootStatus> = new Map()
 
-    curStatus:RootStatus = null;
+    curStatus: RootStatus = null;
 
-    nCurStatusKey:PlayerActions = PlayerActions.stand1;
+    nCurStatusKey: PlayerActions = PlayerActions.stand1;
 
-    constructor(mainPlayer:MainPlayer, spritePlayer:cc.Node)
-    {
+    constructor(mainPlayer: MainPlayer, spritePlayer: cc.Node) {
         this.mainPlayer = mainPlayer;
         this.spritePlayer = spritePlayer;
 
@@ -53,21 +50,17 @@ export class PlayerStatusMachine
     }
 
 
-    getCurStatusKey():PlayerActions
-    {
-        return  this.nCurStatusKey
+    getCurStatusKey(): PlayerActions {
+        return this.nCurStatusKey
     }
 
-    changeStatus(status:PlayerActions)
-    {
-        if(this.curStatus)
-        {
+    changeStatus(status: PlayerActions) {
+        if (this.curStatus) {
             this.curStatus.onExit();
         }
 
         let statusNow = this.mapStatusInfo.get(status);
-        if(statusNow)
-        {
+        if (statusNow) {
             this.nCurStatusKey = status;
             this.curStatus = statusNow;
             statusNow.onEnter();
@@ -75,8 +68,7 @@ export class PlayerStatusMachine
     }
 
 
-    mUpdate(dt)
-    {
+    mUpdate(dt) {
         this.curStatus.onUpdate(dt);
     }
 }

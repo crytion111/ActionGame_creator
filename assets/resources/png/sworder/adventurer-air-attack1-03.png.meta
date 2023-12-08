@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "bc9a8a26-3d71-4d94-8805-c74187e7414e",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-air-attack1-03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "804f4bc7-f855-40be-8f12-1cb02da18daf",
+      "importer": "sprite-frame",
       "rawTextureUuid": "bc9a8a26-3d71-4d94-8805-c74187e7414e",
       "trimType": "auto",
       "trimThreshold": 1,

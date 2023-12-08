@@ -1,9 +1,8 @@
 import WorldScene from "./WorldScene";
 
 
-class gameManager
-{
-    worldScene:WorldScene = null;
+class gameManager {
+    worldScene: WorldScene = null;
 
 }
 

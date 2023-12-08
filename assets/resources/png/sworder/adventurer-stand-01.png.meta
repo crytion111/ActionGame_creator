@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "8fa51f7e-f65d-4c6a-90b1-7ea4a42ea294",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-stand-01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "ee550d3d-5e01-446e-8657-cb3d690b175e",
+      "importer": "sprite-frame",
       "rawTextureUuid": "8fa51f7e-f65d-4c6a-90b1-7ea4a42ea294",
       "trimType": "auto",
       "trimThreshold": 1,

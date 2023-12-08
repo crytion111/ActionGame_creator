@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "a3fa53c8-7cb5-43cd-9aa8-1539d3dd8bd2",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-wall-slide-01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "98493759-d749-4f18-ad35-95391ec9606e",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a3fa53c8-7cb5-43cd-9aa8-1539d3dd8bd2",
       "trimType": "auto",
       "trimThreshold": 1,

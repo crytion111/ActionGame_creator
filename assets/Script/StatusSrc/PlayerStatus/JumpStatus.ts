@@ -20,10 +20,10 @@ export default class JumpStatus extends RootStatus
 
     onUpdate(dt: number)
     {
-        this.fJumpTime += dt;
-        if(this.fJumpTime >= 0.2)
-        {
-            this.machine.changeStatus(PlayerActions.fallDown)
-        }
+        // this.fJumpTime += dt;
+        // if(this.fJumpTime >= 0.2)
+        // {
+        //     this.machine.changeStatus(PlayerActions.fallDown)
+        // }
     }
 }

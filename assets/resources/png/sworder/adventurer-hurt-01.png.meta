@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "5ae6b098-c93c-4c37-94ac-b7dd282375fc",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-hurt-01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "a51c5963-3d7d-4225-b3f0-4364a30ac1d7",
+      "importer": "sprite-frame",
       "rawTextureUuid": "5ae6b098-c93c-4c37-94ac-b7dd282375fc",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "059e8d17-391f-470b-a313-a5f3b5eeda00",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-crouch-03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "aecb6887-8fca-4a20-9908-ebada883950f",
+      "importer": "sprite-frame",
       "rawTextureUuid": "059e8d17-391f-470b-a313-a5f3b5eeda00",
       "trimType": "auto",
       "trimThreshold": 1,

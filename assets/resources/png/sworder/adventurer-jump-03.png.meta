@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "7a7fe23d-ba79-4478-8cdc-a541df92aa37",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-jump-03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "2768173c-79f8-43c9-aa3f-6500a65e32ec",
+      "importer": "sprite-frame",
       "rawTextureUuid": "7a7fe23d-ba79-4478-8cdc-a541df92aa37",
       "trimType": "auto",
       "trimThreshold": 1,

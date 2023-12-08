@@ -1,22 +1,18 @@
 import RootStatus from "../RootStatus";
-import {PlayerActions} from "../PlayerStatusMachine";
+import { PlayerActions } from "../PlayerStatusMachine";
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class FallStatus extends RootStatus
-{
-    onEnter()
-    {
+export default class FallStatus extends RootStatus {
+    onEnter() {
         this.spritePlayer.getComponent(cc.Animation).play("player_fall");
     }
 
-    onExit()
-    {
+    onExit() {
     }
 
-    onUpdate(dt: number)
-    {
+    onUpdate(dt: number) {
 
     }
 }

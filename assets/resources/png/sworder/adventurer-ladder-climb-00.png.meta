@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "a338da04-dc08-44c5-a561-02f01fe299d2",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-ladder-climb-00": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "70669ebc-6276-4dee-bb80-9f815a9736d8",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a338da04-dc08-44c5-a561-02f01fe299d2",
       "trimType": "auto",
       "trimThreshold": 1,

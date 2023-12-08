@@ -60,5 +60,8 @@
     }
   },
   "preview-port": 7456,
-  "clear-simulator-cache": true
+  "clear-simulator-cache": true,
+  "migrate-history": [
+    "cloud-function"
+  ]
 }

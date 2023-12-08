@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "81da6a67-05d3-4328-ad8a-8029d02e673e",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-swrd-shte-03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "66c7e65c-5ecb-457f-8524-e5863777d04f",
+      "importer": "sprite-frame",
       "rawTextureUuid": "81da6a67-05d3-4328-ad8a-8029d02e673e",
       "trimType": "auto",
       "trimThreshold": 1,

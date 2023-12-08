@@ -17,10 +17,5 @@ export default class MoveStatus extends RootStatus
 
     onUpdate(dt: number)
     {
-        // let fPlayerFallSpeed = this.machine.mainPlayer.nFallSpeed;
-        // if (fPlayerFallSpeed < 0)
-        // {
-        //     this.machine.changeStatus(PlayerActions.fallDown);
-        // }
     }
 }

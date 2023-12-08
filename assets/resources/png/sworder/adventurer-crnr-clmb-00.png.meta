@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "b200a7ac-960b-4bf6-9a8b-91ef594d2f0a",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-crnr-clmb-00": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "c1f1a8c5-fabc-40a5-9d31-f6f54ecbbf33",
+      "importer": "sprite-frame",
       "rawTextureUuid": "b200a7ac-960b-4bf6-9a8b-91ef594d2f0a",
       "trimType": "auto",
       "trimThreshold": 1,

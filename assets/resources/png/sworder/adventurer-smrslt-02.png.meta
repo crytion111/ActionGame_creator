@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "814e8576-ee6f-4dd2-bfdf-4a115456a8ca",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-smrslt-02": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "c958c1bc-1047-4fbe-b44c-f181a09c77ed",
+      "importer": "sprite-frame",
       "rawTextureUuid": "814e8576-ee6f-4dd2-bfdf-4a115456a8ca",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "cd2c7901-17f7-4d0e-be17-c6c8c5d04d69",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-idle1-01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "e03fbeac-2385-453c-97f4-c96721faf22c",
+      "importer": "sprite-frame",
       "rawTextureUuid": "cd2c7901-17f7-4d0e-be17-c6c8c5d04d69",
       "trimType": "auto",
       "trimThreshold": 1,

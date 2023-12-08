@@ -1,23 +1,20 @@
 import RootStatus from "../RootStatus";
-import {PlayerActions} from "../PlayerStatusMachine";
+import { PlayerActions } from "../PlayerStatusMachine";
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class AttackStatus extends RootStatus
-{
-    nAttackLevel:number = 1;
+export default class AttackStatus extends RootStatus {
+    nAttackLevel: number = 1;
 
     // 是不是在运行动作中
-    bInAttackAnimation:boolean = false;
+    bInAttackAnimation: boolean = false;
 
-    onEnter()
-    {
+    onEnter() {
         this.bInAttackAnimation = true;
-        this.spritePlayer.getComponent(cc.Animation).play("player_attack"+this.nAttackLevel);
+        this.spritePlayer.getComponent(cc.Animation).play("player_attack" + this.nAttackLevel);
         this.nAttackLevel++;
-        if (this.nAttackLevel > 3)
-        {
+        if (this.nAttackLevel > 3) {
             this.nAttackLevel = 1;
         }
 
@@ -25,33 +22,27 @@ export default class AttackStatus extends RootStatus
         this.spritePlayer.getComponent(cc.Animation).on("finished", this.onAttackFinished, this)
     }
 
-    onExit()
-    {
+    onExit() {
         this.bInAttackAnimation = false;
         this.spritePlayer.getComponent(cc.Animation).off("finished", this.onAttackFinished, this)
         cc.Tween.stopAllByTarget(this);
     }
 
-    onUpdate(dt: number)
-    {
+    onUpdate(dt: number) {
 
     }
 
-    onAttackFinished()
-    {
+    onAttackFinished() {
         this.bInAttackAnimation = false;
         cc.tween(this)
             .delay(0.2)
-            .call(()=>
-            {
+            .call(() => {
                 this.nAttackLevel = 1;
 
-                if(this.machine.mainPlayer.bPlayerInRunning)
-                {
+                if (this.machine.mainPlayer.bPlayerInRunning) {
                     this.machine.changeStatus(PlayerActions.move);
                 }
-                else
-                {
+                else {
                     this.machine.changeStatus(PlayerActions.stand2);
                 }
             })

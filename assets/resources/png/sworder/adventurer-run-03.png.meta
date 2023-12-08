@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "ccf21669-3de5-4f04-b688-2d38af78dea6",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-run-03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "971fe879-ad25-43c1-92fd-66d132dcebc6",
+      "importer": "sprite-frame",
       "rawTextureUuid": "ccf21669-3de5-4f04-b688-2d38af78dea6",
       "trimType": "auto",
       "trimThreshold": 1,

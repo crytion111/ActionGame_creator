@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "ff9de369-4e5a-4813-b086-1f3b2c7ca479",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-attack2-05": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "1db194aa-5613-4229-af31-504e17075fec",
+      "importer": "sprite-frame",
       "rawTextureUuid": "ff9de369-4e5a-4813-b086-1f3b2c7ca479",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "8a03bc6c-a272-49e8-afdf-355f3645a761",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-cast-02": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "22f6af56-4699-4452-b6c3-1214550b9a22",
+      "importer": "sprite-frame",
       "rawTextureUuid": "8a03bc6c-a272-49e8-afdf-355f3645a761",
       "trimType": "auto",
       "trimThreshold": 1,

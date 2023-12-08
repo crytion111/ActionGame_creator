@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "a03d1d9f-f6f8-4fc2-8a05-5992f8f3da99",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-fall-01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "d6c512a3-0ced-47e6-8032-0a7aec042bc4",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a03d1d9f-f6f8-4fc2-8a05-5992f8f3da99",
       "trimType": "auto",
       "trimThreshold": 1,

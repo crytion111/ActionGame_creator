@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "ce5296b8-db5f-4a94-bb2f-1f455fff2062",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "adventurer-die-05": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "5b8060e3-7e6d-4c68-9c3a-6cf66b5b2512",
+      "importer": "sprite-frame",
       "rawTextureUuid": "ce5296b8-db5f-4a94-bb2f-1f455fff2062",
       "trimType": "auto",
       "trimThreshold": 1,
